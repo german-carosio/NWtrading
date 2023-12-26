@@ -211,9 +211,12 @@ button {
 }
 
 .producto-img {
-    max-width: 300px;
     cursor: pointer;
     transition: all 0.3s;
+}
+
+.producto-img img {
+    max-width: 250px;
 }
 
 .producto-img:hover {
