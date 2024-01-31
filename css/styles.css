@@ -74,6 +74,10 @@ button {
     color: var(--blanco);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*HEADER*/
 
 .header {
@@ -224,10 +228,6 @@ section h2 {
 }
 
 
-/* .cuerpo-portada img { 
-    width: 200px;
-} */
-
 .cuerpo-portada h3 {
     margin: 0 auto;
     padding: 0 10px;
@@ -275,14 +275,16 @@ section h2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* padding: 20px; */
+    
 }
 
 .about-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: solid 1px var(--gris-claro); */
+    border: solid 1px var(--gris-claro);
+    padding: 15px;
+    border-radius: 6px;
 }
 
 .about-item div {
@@ -302,6 +304,7 @@ section h2 {
 .about-item img {
     width: 600px;
     display: none;
+    border-radius: 6px;
 }
 
 .about-item2 div {
@@ -331,6 +334,9 @@ section h2 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 50px;
+    border: solid 1px var(--gris-claro);
+    padding: 30px 0;
+    border-radius: 6px;
 }
 
 .producto {
@@ -348,8 +354,8 @@ section h2 {
 }
 
 .producto-img img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 100%;
     border: solid 5px var(--gris-claro);
@@ -369,7 +375,7 @@ section h2 {
 
 @media (min-width: 900px){
     .productos-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -422,18 +428,18 @@ section h2 {
 /*Form*/
 
 .contacto {
-    padding: 20px;
+    padding: 15px;
     width: 100%;
     max-width: 1400px;
     margin: 40px auto;
 }
 
 .form-contacto {
-    width: 300px;
+    width: 280px;
     display: flex;
     flex-direction: column;
-    margin: 20px auto;
     gap: 10px;
+    margin: 40px auto;
 }
 
 .form-contacto button {
