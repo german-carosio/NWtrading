@@ -211,7 +211,6 @@ section h2 {
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .cuerpo-portada {
@@ -223,8 +222,8 @@ section h2 {
     padding: 20px;
     color: var(--blanco);
     width: 100%;
-    border: solid;
-    border-radius: 4px;
+    margin: 120px 10px 0 10px;
+    border-radius: 6px;
 }
 
 
@@ -244,9 +243,14 @@ section h2 {
 
 @media (min-width: 900px){
 
+        .portada {
+            justify-content: initial;
+        }
+
      .cuerpo-portada {
         width: 610px;
-
+        padding: 40px;
+        margin: 160px 10px 0 10px;
     }
 
     
