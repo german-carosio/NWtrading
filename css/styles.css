@@ -241,7 +241,7 @@ section h2 {
     
 }
 
-@media (min-width: 900px){
+@media (min-width: 768px){
 
         .portada {
             justify-content: initial;
@@ -283,7 +283,7 @@ section h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 20px;
+    padding: 40px 10px;
     background-color: var(--celeste);
     gap: 20px;
 }
@@ -319,6 +319,11 @@ section h2 {
 }
 
 @media (min-width: 900px){
+
+    .about-item {
+        padding: 40px 20px;
+    }
+
     .about-item img {
         display: block;
     }
@@ -368,7 +373,7 @@ section h2 {
     height: 200px;
     object-fit: cover;
     border-radius: 100%;
-    border: solid 5px var(--gris-claro);
+    border: solid 5px var(--blanco);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
