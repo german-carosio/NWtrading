@@ -281,7 +281,7 @@ section h2 {
 
 /* About */
 .about {
-    padding: 20px 10px;
+    padding: 10px;
     width: 100%;
     max-width: 1400px;
     margin: 40px auto;
@@ -297,7 +297,7 @@ section h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 10px;
+    padding: 40px 0;
     gap: 20px;
     color: var(--azul-marca);
 }
@@ -308,7 +308,7 @@ section h2 {
 }
 
 .about-item div {
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
     margin: 0 auto;
     width: 100%;
 }
@@ -334,6 +334,10 @@ section h2 {
 
 @media (min-width: 900px){
 
+    .about {
+        padding: 10px;
+    }
+
     .about-item {
         padding: 40px 20px;
     }
@@ -354,7 +358,7 @@ section h2 {
 
 /* Products */
 .productos {
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     max-width: 1400px;
     margin: 40px auto;
@@ -413,7 +417,7 @@ section h2 {
 /*Form*/
 
 .contacto {
-    padding: 15px;
+    padding: 10px;
     width: 100%;
     max-width: 1400px;
     margin: 40px auto;
