@@ -79,13 +79,13 @@ button {
 .btn-form:hover {
     background-color: var(--verde);
     color: var(--blanco);
-    border: none;
+    
 }
 
 .btn-form2:hover {
     background-color: var(--verde);
     color: var(--blanco);
-    border: none;
+    
 }
 
 html {
@@ -410,51 +410,6 @@ section h2 {
 }
 
 
-/*marcas*/
-
-.marcas {
-    margin-top: 40px;
-    padding: 40px 0;
-    background-color: var(--gris-claro);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-}
-
-.marcas-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    width: 60%;
-}
-
-.marcas-iconos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
-.marcas-iconos i {
-    font-size: 3em;
-    color: var(--gris-oscuro);
-    transition: all 0.4s;
-}
-
-.marcas-iconos i:hover {
-    color: var(--azul);
-}
-
-
-@media (min-width: 900px){
-    .marcas-iconos {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
 /*Form*/
 
 .contacto {
@@ -544,9 +499,14 @@ section h2 {
 }
 
 
-.fa-instagram {
+.footer a {
     font-size: 2em;
     text-align: center;
+    color: #fff;
+}
+
+.footer a:hover {
+    color: var(--verde);
 }
 
 
