@@ -218,8 +218,8 @@ section h2 {
     background-image: linear-gradient(
         rgba(0,0,0,0.55),
         rgba(0,0,0,0.55)),
-        url(../img/222.jpg);
-    background-position: 0 35%;
+        url(../img/farming.jpeg);
+    background-position: 25% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -238,7 +238,9 @@ section h2 {
     /* margin: 130px 10px 0 10px; */
     border-radius: 6px;
     position: absolute;
-    top: 180px;
+    top: 205px;
+    left: 0;
+    width: 320px;
 }
 
 
@@ -259,12 +261,13 @@ section h2 {
 
         .portada {
             justify-content: initial;
+            background-position: 0 35%;
         }
 
      .cuerpo-portada {
         width: 620px;
         left: 0;
-        top: 25%;
+        top: 26%;
         padding: 30px 0 30px 50px;
     }
 
@@ -277,6 +280,12 @@ section h2 {
         width: 520px ;
         flex-direction: row;
         
+    }
+}
+
+@media (min-width: 1366px){
+    .cuerpo-portada {
+        top: 32%;
     }
 }
 
