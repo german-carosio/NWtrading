@@ -220,7 +220,7 @@ section h2 {
     background-image: linear-gradient(
         rgba(0,0,0,0.55),
         rgba(0,0,0,0.55)),
-        url(../img/new-farm.png);
+        url(../img/new-farm-min.png);
     background-position: 25% 100%;
     background-repeat: no-repeat;
     background-size: cover;
