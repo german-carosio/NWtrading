@@ -92,6 +92,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /*HEADER*/
 
 .header {
@@ -152,7 +153,7 @@ html {
   
   .menu-link{
     padding: 8px 12px;
-    color: var(--azul-marca);
+    color: var(--negro);
     transition: all 0.3s;
   }
 
@@ -311,7 +312,7 @@ section h2 {
     align-items: center;
     padding: 40px 0;
     gap: 20px;
-    color: var(--azul-marca);
+    color: var(--negro);
 }
 
 .about2 {
