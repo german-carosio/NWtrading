@@ -153,12 +153,12 @@ html {
   
   .menu-link{
     padding: 8px 12px;
-    color: var(--negro);
+    color: var(--azul-marca);
     transition: all 0.3s;
   }
 
   .menu-link:hover {
-    color: var(--gris-oscuro);
+    color: #777;
   }
   
 
