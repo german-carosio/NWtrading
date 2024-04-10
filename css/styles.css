@@ -544,3 +544,32 @@ section h2 {
     }
 
 }
+
+
+/*ENVIADO*/
+
+.main-enviado {
+    height: 100vh;
+    padding: 40px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-enviado h2 {
+    text-align: center;
+}
+
+.main-enviado img{
+    width: 100%;
+}
+
+@media (min-width: 900px){
+ 
+    .main-enviado img{
+        width: 50%;
+    }
+
+}
