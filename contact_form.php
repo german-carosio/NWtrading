@@ -1,7 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Define las variables
-    $destinatario = 'carosiogerman@gmail.com';
+    $destinatario = 'info@nwtrading.net';
+    $destinatario2 = 'alejandro@nwtrading.net';
     $nombre = $_POST['nombre'];
     $email = $_POST['email'];
     $telefono = $_POST['telefono'];
@@ -63,8 +64,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
+    // Encabezado From (nombre del remitente)
+    $from = 'Consulta nwtrading.net <u670729519@srv1171.main-hosting.eu>';
+
+    // Encabezado From
+    $headers .= "From: $from\r\n";
+
+    // Concatenar todos los destinatarios separados por coma
+    $todos_destinatarios = $destinatario . ',' . $destinatario2;
+
     // Envía el correo electrónico
-    if (mail($destinatario, $asunto, $contenido, $headers)) {
+    if (mail($todos_destinatarios, $asunto, $contenido, $headers)) { // Usar $todos_destinatarios aquí
         // Redirige al usuario después de enviar el formulario
         header('Location: enviado.html');
         exit;
